@@ -12,7 +12,7 @@ int getSum(vector<int>& numbers){
 
 float getAverage(vector<int>& numbers){
     float sum= getSum(numbers);
-    return sum;
+    return (float)(sum/numbers.size);
 }
 int getMin(vector<int>& numbers){
     int minNumber=INT_MAX;
